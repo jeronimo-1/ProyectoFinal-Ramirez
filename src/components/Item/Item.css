@@ -1,0 +1,77 @@
+/* En tu hoja de estilo CSS (Item.css) */
+.CardItem {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 315px;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  margin: 10px;
+  border-bottom: 2px solid #000;
+}
+
+.CardItem:hover {
+  transform: scale(1.05);
+  background-color: #44444421;
+  border-top-right-radius: 15%;
+}
+
+.itemContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  padding: 10px;
+  margin: -20px -20px 20px -20px;
+}
+
+.ItemHeader {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  
+}
+
+.itemInfo {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.ItemImg {
+  width: 150px;
+  height: 200px;
+}
+
+.info {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.ItemFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.option {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.option:hover {
+  background-color: #444;
+  text-decoration: none;
+}
+

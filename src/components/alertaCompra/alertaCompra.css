@@ -1,0 +1,29 @@
+.custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 7%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .custom-alert p {
+    margin-bottom: 8px;
+  }
+  
+  .custom-alert button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-alert button:hover {
+    background-color: #0056b3;
+  }
+  

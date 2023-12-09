@@ -1,0 +1,5 @@
+.ListGroup {
+    display: flex;
+    justify-content: space-between; /* Espaciado uniforme entre los productos */
+    flex-wrap: wrap; /* Permite que los productos se ajusten en múltiples filas */
+  }

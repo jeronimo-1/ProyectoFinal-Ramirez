@@ -1,0 +1,45 @@
+.contador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  margin: 10px;
+}
+
+.contador:hover {
+  transform: scale(1.05);
+}
+
+.controles {
+  display: flex;
+  align-items: center;
+}
+
+.Button {
+  background-color: #007bff; /* Azul */
+  color: #fff; /* Texto blanco */
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 8px;
+  transition: background-color 0.2s, color 0.2s, font-size 0.2s;
+}
+
+.Button:hover {
+  background-color: #0056b3; /* Tono más oscuro de azul al pasar el mouse */
+  text-decoration: none;
+}
+
+.Number {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.agregar {
+  text-align: center;
+  margin-top: 10px;
+}
